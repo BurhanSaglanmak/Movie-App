@@ -3,7 +3,7 @@
 -Api ile film datası alıp, arama yapılabilen uygulama
 
 
-Özellikler
+# Özellikler
 
 -Axios API ile hava durumu bilgileri https://developers.themoviedb.org adresinden çekildi.
 
