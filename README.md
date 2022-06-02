@@ -5,7 +5,9 @@
 
 # Özellikler
 
--Axios API ile hava durumu bilgileri https://developers.themoviedb.org adresinden çekildi.
+-Axios API ile film bilgileri https://developers.themoviedb.org adresinden çekildi.
+-20'li arraylerden veriler çekildi, bir sonraki film listesine ulaşmak için "İleri" butonu atandı.
+
 
 
 # Screenshot
