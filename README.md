@@ -7,7 +7,7 @@
 
 -Axios API ile film bilgileri https://developers.themoviedb.org adresinden çekildi.
 
--20'li arraylerden veriler çekildi, bir sonraki film listesine ulaşmak için "İleri" butonu atandı.
+-Veriler 20'li arrayler içerisinden alındı, bir sonraki film listesine ulaşmak için "İleri" butonu atandı.
 
 
 
