@@ -13,4 +13,5 @@
 
 # Screenshot
 
-![Adsız](https://user-images.githubusercontent.com/104764065/171503036-c247bc25-70a6-491e-ac3e-60ee45d11910.png)
+![Adsız](https://user-images.githubusercontent.com/104764065/176999455-1d209049-ad24-4908-a99a-4bcafaa4558c.png)
+
