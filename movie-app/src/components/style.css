@@ -1,0 +1,19 @@
+p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;  /* Number of lines displayed before it truncate */
+     overflow: hidden;
+  }
+  .list{
+    min-height: 700px;
+  }
+  .searchbar{
+    margin: 10px;
+  }
+  .input{
+    margin: 10px;
+  }
+  .loading{
+    display:inline-flex;
+    justify-content: center !important;
+  }

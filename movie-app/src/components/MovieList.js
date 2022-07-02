@@ -1,10 +1,11 @@
 import React from "react";
+import "./style.css"
 
 function MovieList(props) {
   return (
     <div className="col-2 row-cols-1" key={props.index}>
       <div className="row">
-        <div className="card">
+        <div className="card list">
           <img src={props.Img1} className="card-img-top" alt=""></img>
           <div className="card-body">
             <h5 className="card-title">{props.cardName1}</h5>

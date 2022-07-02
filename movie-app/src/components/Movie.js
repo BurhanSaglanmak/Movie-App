@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
 import MovieList from "./MovieList";
-
+import "./style.css"
 
 
 function Movie({ change,isClick }) {
@@ -23,7 +23,7 @@ function Movie({ change,isClick }) {
 
   return (
     <div className="card-group">
-      {isLoading && <div>Loading...</div>}
+      {isLoading && <div><h4 className="loading">Loading...</h4> </div>}
       {filtered?.map((item, index) => (
         <MovieList
           key={index}
