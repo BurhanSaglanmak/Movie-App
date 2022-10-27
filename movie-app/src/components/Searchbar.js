@@ -5,7 +5,7 @@ function Searchbar({ change, setchange, isClick,setIsClick }) {
     setIsClick(isClick+1)
   }
   return (
-    <div className="input-group input-group-lg">
+    <div className="input-group input-group-lg bar">
       <input
         type="text"
         value={change}
@@ -17,7 +17,7 @@ function Searchbar({ change, setchange, isClick,setIsClick }) {
         aria-describedby="inputGroup-sizing-lg"
         placeholder="Film Yaz!!"
       />
-      <button onClick={click}>İLERİ</button>
+      <button className="btn" onClick={click}>İLERİ</button>
     </div>
   );
 }

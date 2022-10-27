@@ -8,7 +8,7 @@ function Movie({ change,isClick }) {
   const [users,setUsers]=useState([])
   const[isLoading,setIsLoading]=useState(true)
   useEffect(()=>{
-    const key = process.env.React_App_Key
+    const key =  process.env.React_App_Key
     axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=${isClick}`)
     .then((res)=> setUsers(res.data.results))
     
@@ -22,7 +22,7 @@ function Movie({ change,isClick }) {
   );
 
   return (
-    <div className="card-group">
+    <div className="">
       {isLoading && <div><h4 className="loading">Loading...</h4> </div>}
       {filtered?.map((item, index) => (
         <MovieList
